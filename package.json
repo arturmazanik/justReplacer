@@ -1,0 +1,23 @@
+{
+  "name": "justreplacer",
+  "version": "0.1.1",
+  "description": "Html5 js replacer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node static-file-server.js",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production && node static-file-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
